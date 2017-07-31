@@ -48,7 +48,7 @@ public class Show : MonoBehaviour {
 			int count = old.Count; // liczba starych osobników gotowych do reprodukcji
 			// dodane jako ostatnie ma mozliwie najlepszy fittness z całej populacji
 			if(old[count-1].Fitness() > best.Fitness()){
-				best = old[count-1];	// pobranie najlepszego dna z populacji				
+				best = old[count-1];	// pobranie najlepszego dna ze wszystkich generacji			
 			}
 			// lepszego ustawienia nie da się zrobić
 			if(old[count-1].Fitness() == best.GetDNA().Count){

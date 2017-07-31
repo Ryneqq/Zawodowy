@@ -6,6 +6,7 @@ public class UpdateTabs : MonoBehaviour {
 	void Awake(){
 		Load.Setup();
 		Save.Setup();
+		Camera.main.GetComponent<ChangeScene>().SetRes("program");
 	}
 
 	void Update () {

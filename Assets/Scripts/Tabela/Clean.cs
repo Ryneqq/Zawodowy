@@ -6,6 +6,7 @@ using UnityEngine;
 public class Clean : MonoBehaviour {
 
 	void Start () {
+		Camera.main.GetComponent<ChangeScene>().SetRes("tab");
 		DeleteEmpty(Variables.players);
 		int count = Randomize.Size(Variables.players);
 		while(count > Variables.players.Count){
