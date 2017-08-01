@@ -27,7 +27,9 @@ public static class Randomize {
 	// Metoda robi rozpiskę turniejową w zależności od ilości zawodników
 	public static int [] Order(int size){
 		int count = size;
+		Debug.Log("count " + count);
 		int half = count/2;
+		Debug.Log("half " + half);
 		int [] tab = new int[count];
 		tab[0] = 2;
 		tab[1] = count - 1;
@@ -44,7 +46,7 @@ public static class Randomize {
 			tab[i+1] = Mathf.Abs(tab[i] - count - 1);
 		}
 
-		tab[count-1] = 1;
+		tab[count - 1] = 1;
 		tab[count - 2] = count;
 		// konwersja na indeksy
 		for(int i = 0; i < tab.Length; i++){

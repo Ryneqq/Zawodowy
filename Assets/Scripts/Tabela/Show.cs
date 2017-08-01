@@ -1,6 +1,8 @@
-﻿using System.Collections;
+﻿using System.Linq;
+using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+
 
 public class Show : MonoBehaviour {
 
@@ -12,11 +14,47 @@ public class Show : MonoBehaviour {
 	void Start () {
 		// instantine objekty z listy
 		// stworz tyle guzikow do zmieniania stron ile jest obiektów w liscie
+		int count = Variables.players.Count;
+
+		switch (count)
+		{
+			case 4:
+				Spawn(_4[0]);
+			break;
+			case 8:
+				Spawn(_8[0]);
+			break;
+			case 16:
+				Spawn(_16[0]);
+			break;
+			case 32:
+				Spawn(_32[0]);
+			break;
+			default:
+				print("dupa blada");
+			break;
+		}
 
 		List<Player> best = FindBest();
 		int[] tab = Randomize.Order(best.Count);
+	
+		Fill(best);
+	}
+
+	public void Spawn(GameObject go){
+		Instantiate(go, Vector3.zero, Quaternion.identity);
+	}
+	GameObject[] FindObsWithTag(string tag){
+		GameObject[] foundObs = GameObject.FindGameObjectsWithTag(tag);
+		foundObs = foundObs.OrderBy(order => int.Parse(order.name)).ToArray();
+		return foundObs;
+	}
+	public void Fill(List<Player> best){
+		GameObject[] gayObjects = FindObsWithTag("Startowy");
+		int[] tab = Randomize.Order(best.Count);
 		for(int i = 0; i < best.Count; i+=2){
-			print(best[tab[i]].name+ " vs " + best[tab[i+1]].name);
+			gayObjects[i].GetComponent<SetText>().Set(best[tab[i]].name);
+			gayObjects[i+1].GetComponent<SetText>().Set(best[tab[i+1]].name);
 		}
 	}
 	// Metoda ma za zadanie znalezienie jak najlepszego ustawienia zawodników,
@@ -67,4 +105,5 @@ public class Show : MonoBehaviour {
 		return best.GetDNA();		
 	}
 	 // po instatnitine wylosuj zawodnikow i wpisz ich w tabele
+
 }
