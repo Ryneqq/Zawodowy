@@ -27,9 +27,7 @@ public static class Randomize {
 	// Metoda robi rozpiskę turniejową w zależności od ilości zawodników
 	public static int [] Order(int size){
 		int count = size;
-		Debug.Log("count " + count);
 		int half = count/2;
-		Debug.Log("half " + half);
 		int [] tab = new int[count];
 		tab[0] = 2;
 		tab[1] = count - 1;

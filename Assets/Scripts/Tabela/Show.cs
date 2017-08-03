@@ -31,13 +31,10 @@ public class Show : MonoBehaviour {
 				Spawn(_32[0]);
 			break;
 			default:
-				print("dupa blada");
 			break;
 		}
 
 		List<Player> best = FindBest();
-		int[] tab = Randomize.Order(best.Count);
-	
 		Fill(best);
 	}
 
