@@ -19,7 +19,7 @@ public class ToggleFullscreen : MonoBehaviour {
 			Screen.SetResolution(1240,900,false,60);
 		}
 		if(Input.GetKeyDown("s")){
-			Application.CaptureScreenshot("Tabela32.png");
+			ScreenCapture.CaptureScreenshot("Tabela32.png");
 		}
 	}
 }

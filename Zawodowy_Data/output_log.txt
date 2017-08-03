@@ -1,11 +1,11 @@
-Initialize engine version: 5.6.2f1 (a2913c821e27)
+Initialize engine version: 2017.1.0f3 (472613c02cf7)
 GfxDevice: creating device client; threaded=1
 Direct3D:
     Version:  Direct3D 11.0 [level 11.0]
-    Renderer: NVIDIA GeForce GTX 650 Ti BOOST (ID=0x11c2)
+    Renderer: NVIDIA GeForce GTX 950M    (ID=0x139a)
     Vendor:   NVIDIA
-    VRAM:     1973 MB
-    Driver:   22.21.13.8253
+    VRAM:     4010 MB
+    Driver:   9.18.13.4725
 Begin MonoManager ReloadAssembly
 Platform assembly: C:\Users\Paweł\Documents\Zawodowy\Zawodowy_Data\Managed\UnityEngine.dll (this message is harmless)
 Loading C:\Users\Paweł\Documents\Zawodowy\Zawodowy_Data\Managed\UnityEngine.dll into Unity Child Domain
@@ -15,14 +15,16 @@ Platform assembly: C:\Users\Paweł\Documents\Zawodowy\Zawodowy_Data\Managed\Unit
 Loading C:\Users\Paweł\Documents\Zawodowy\Zawodowy_Data\Managed\UnityEngine.UI.dll into Unity Child Domain
 Platform assembly: C:\Users\Paweł\Documents\Zawodowy\Zawodowy_Data\Managed\UnityEngine.Networking.dll (this message is harmless)
 Loading C:\Users\Paweł\Documents\Zawodowy\Zawodowy_Data\Managed\UnityEngine.Networking.dll into Unity Child Domain
-- Completed reload, in  0.070 seconds
-Platform assembly: C:\Users\Paweł\Documents\Zawodowy\Zawodowy_Data\Managed\System.Core.dll (this message is harmless)
+Platform assembly: C:\Users\Paweł\Documents\Zawodowy\Zawodowy_Data\Managed\UnityEngine.Timeline.dll (this message is harmless)
+Loading C:\Users\Paweł\Documents\Zawodowy\Zawodowy_Data\Managed\UnityEngine.Timeline.dll into Unity Child Domain
 Platform assembly: C:\Users\Paweł\Documents\Zawodowy\Zawodowy_Data\Managed\System.dll (this message is harmless)
+Platform assembly: C:\Users\Paweł\Documents\Zawodowy\Zawodowy_Data\Managed\System.Core.dll (this message is harmless)
+- Completed reload, in  0.168 seconds
 <RI> Initializing input.
+XInput1_3.dll not found. Trying XInput9_1_0.dll instead...
 <RI> Input initialized.
-desktop: 1920x1080 60Hz; virtual: 1920x1080 at 0,0
 <RI> Initialized touch support.
-UnloadTime: 1.942367 ms
+UnloadTime: 2.218135 ms
 C:/Users/Paweł/AppData/LocalLow/DefaultCompany/Zawodowo/
  
 (Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
@@ -32,10 +34,34 @@ C:/Users/Paweł/AppData/LocalLow/DefaultCompany/Zawodowo/
 (Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
 
 Unloading 5 Unused Serialized files (Serialized files now loaded: 0)
-UnloadTime: 4.456694 ms
+UnloadTime: 8.039605 ms
 
-Unloading 130 unused Assets to reduce memory usage. Loaded Objects now: 2331.
-Total: 1.295843 ms (FindLiveObjects: 0.098485 ms CreateObjectMapping: 0.114951 ms MarkObjects: 1.034562 ms  DeleteObjects: 0.047533 ms)
+Unloading 130 unused Assets to reduce memory usage. Loaded Objects now: 2364.
+Total: 3.378718 ms (FindLiveObjects: 0.277118 ms CreateObjectMapping: 0.247512 ms MarkObjects: 2.738029 ms  DeleteObjects: 0.114084 ms)
+
+tutaj jestem
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+Unloading 2 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 1.995887 ms
+C:/Users/Paweł/AppData/LocalLow/DefaultCompany/Zawodowo/
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+C:/Users/Paweł/AppData/LocalLow/DefaultCompany/Zawodowo/
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+
+Unloading 2026 unused Assets to reduce memory usage. Loaded Objects now: 672.
+Total: 2.381959 ms (FindLiveObjects: 0.213563 ms CreateObjectMapping: 0.228169 ms MarkObjects: 0.947809 ms  DeleteObjects: 0.990838 ms)
+
+Unloading 3 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 3.819266 ms
+
+Unloading 128 unused Assets to reduce memory usage. Loaded Objects now: 2374.
+Total: 1.510337 ms (FindLiveObjects: 0.158297 ms CreateObjectMapping: 0.106189 ms MarkObjects: 1.196506 ms  DeleteObjects: 0.048555 ms)
 
 best fitness: 14
  
@@ -118,7 +144,7 @@ best fitness: 14
 (Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
 
 Unloading 2 Unused Serialized files (Serialized files now loaded: 0)
-UnloadTime: 1.276270 ms
+UnloadTime: 1.175978 ms
 C:/Users/Paweł/AppData/LocalLow/DefaultCompany/Zawodowo/
  
 (Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
@@ -128,9 +154,11 @@ C:/Users/Paweł/AppData/LocalLow/DefaultCompany/Zawodowo/
 (Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
 
 
-Unloading 2026 unused Assets to reduce memory usage. Loaded Objects now: 618.
-Total: 1.016542 ms (FindLiveObjects: 0.117126 ms CreateObjectMapping: 0.131728 ms MarkObjects: 0.398912 ms  DeleteObjects: 0.368154 ms)
+Unloading 2026 unused Assets to reduce memory usage. Loaded Objects now: 682.
+Total: 1.172031 ms (FindLiveObjects: 0.150007 ms CreateObjectMapping: 0.101452 ms MarkObjects: 0.564896 ms  DeleteObjects: 0.354885 ms)
 
-Setting up 2 worker threads for Enlighten.
-  Thread -> id: 122c -> priority: 1 
-  Thread -> id: 3c0 -> priority: 1 
+Setting up 4 worker threads for Enlighten.
+  Thread -> id: d28 -> priority: 1 
+  Thread -> id: 1170 -> priority: 1 
+  Thread -> id: 1308 -> priority: 1 
+  Thread -> id: 11a4 -> priority: 1 
