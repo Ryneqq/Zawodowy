@@ -59,7 +59,7 @@ public class Show : MonoBehaviour {
 	// albo by ten proceder był możliwie jak najrzadszy.
 	public List<Player> FindBest(){
 		int popsize = 100; // wielkość populacji
-		int generations = 20; // liczba generacji
+		int generations = 40; // liczba generacji
 		Genes best = new Genes();	// najlepsze możliwe rozlosowanie		
 		List<Player> players = Variables.players; // lokalna referencja do zawodników
 		List<Genes> population = new List<Genes>();	// populacja rozlosowań
@@ -87,10 +87,10 @@ public class Show : MonoBehaviour {
 			}
 			// lepszego ustawienia nie da się zrobić
 			if(old[count-1].Fitness() == best.GetDNA().Count){
-				print("tutaj jestem");
+				print("Optymalne, gen " + i);
 				return best.GetDNA();
 			}
-			print("best fitness: " + old[count-1].Fitness());
+			//print("the best fitness of generation: " + old[count-1].Fitness());
 			// selekcja naturalna - zabicie poprzedniej generacji
 			population = new List<Genes>();
 			// replikacja dna obiektów z poprzedniej generacji
@@ -99,6 +99,7 @@ public class Show : MonoBehaviour {
 				population.Add(new Genes(old[who]));
 			}
 		}
+		print("the best fitness of all: " + best.Fitness());
 		return best.GetDNA();		
 	}
 	 // po instatnitine wylosuj zawodnikow i wpisz ich w tabele

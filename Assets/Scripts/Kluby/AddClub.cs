@@ -36,7 +36,7 @@ public class AddClub : AddContent {
 			pos -= delta;
 
 			float h = gameObject.GetComponent<RectTransform>().rect.height;
-			if(index * delta > h){
+			if((index+1) * delta > h){
 				Resize(h, "Klub");
 			}
 		}
@@ -46,24 +46,17 @@ public class AddClub : AddContent {
 
 	// Metoda dodaje wczytane z pliku kluby do zakładki 'Kluby'
 	public void AddLoaded(){
-		// float h = gameObject.GetComponent<RectTransform>().rect.height;		
+		// obliczam mnożnik - (count=9 => k=1; count=10 => k=2) - zaookrąglenie w górę z + 1 dla pełnych liczb;
+		int k = (Variables.clubs.Count + 10) / 10;
+		float h = gameObject.GetComponent<RectTransform>().rect.height * k;
+		Resize(h);
+		pos = h/2 - delta;
 
 		foreach(var c in Variables.clubs){
 			GameObject temp = Add(index, pos);
 			temp.GetComponent<SetCN>().SetName(c);
 			index++;
 			pos -= delta;
-
-			// if(index * delta > h){
-			// 	Resize(h, "Klub");
-			// 	h = gameObject.GetComponent<RectTransform>().rect.height;				
-			// }
 		}
-		// GameObject [] clubs = GameObject.FindGameObjectsWithTag("Klub");
-		// for(int i = 0; i < Variables.clubs.Count; i++){
-		// 	clubs[i].GetComponent<SetCN>().SetName(Variables.clubs[i]);
-		// }
-		// Variables.changed = false;	
-	
 	}
 }

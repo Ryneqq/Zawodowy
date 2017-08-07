@@ -32,7 +32,7 @@ public class AddPlayer : AddContent {
 		Variables.players.Add(player);
 		
 		float h = gameObject.GetComponent<RectTransform>().rect.height;
-		if(index * delta > h){
+		if((index+1) * delta > h){
 			Resize(h, "Zawodnik");
 		}
 
@@ -40,6 +40,13 @@ public class AddPlayer : AddContent {
 	}
 
 	public void AddLoaded(){
+		// opis obliczania w 'AddClubs'
+		// tą część kodu możnabyłoby przenieść do'AddContent' ponieważ się pokrywa z 'AddClub'
+		int k = (Variables.players.Count + 10) / 10;
+		float h = gameObject.GetComponent<RectTransform>().rect.height * k;
+		pos = h/2 - delta;
+		Resize(h);
+
 		foreach(var p in Variables.players){
 			Add(index, pos);
 			index++;

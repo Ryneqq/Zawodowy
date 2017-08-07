@@ -19,12 +19,12 @@ Platform assembly: C:\Users\Paweł\Documents\Zawodowy\Zawodowy_Data\Managed\Unit
 Loading C:\Users\Paweł\Documents\Zawodowy\Zawodowy_Data\Managed\UnityEngine.Timeline.dll into Unity Child Domain
 Platform assembly: C:\Users\Paweł\Documents\Zawodowy\Zawodowy_Data\Managed\System.dll (this message is harmless)
 Platform assembly: C:\Users\Paweł\Documents\Zawodowy\Zawodowy_Data\Managed\System.Core.dll (this message is harmless)
-- Completed reload, in  0.168 seconds
+- Completed reload, in  0.165 seconds
 <RI> Initializing input.
 XInput1_3.dll not found. Trying XInput9_1_0.dll instead...
 <RI> Input initialized.
 <RI> Initialized touch support.
-UnloadTime: 2.218135 ms
+UnloadTime: 2.543806 ms
 C:/Users/Paweł/AppData/LocalLow/DefaultCompany/Zawodowo/
  
 (Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
@@ -34,17 +34,41 @@ C:/Users/Paweł/AppData/LocalLow/DefaultCompany/Zawodowo/
 (Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
 
 Unloading 5 Unused Serialized files (Serialized files now loaded: 0)
-UnloadTime: 8.039605 ms
+UnloadTime: 6.428992 ms
 
-Unloading 130 unused Assets to reduce memory usage. Loaded Objects now: 2364.
-Total: 3.378718 ms (FindLiveObjects: 0.277118 ms CreateObjectMapping: 0.247512 ms MarkObjects: 2.738029 ms  DeleteObjects: 0.114084 ms)
+Unloading 130 unused Assets to reduce memory usage. Loaded Objects now: 2378.
+Total: 1.548232 ms (FindLiveObjects: 0.223036 ms CreateObjectMapping: 0.084872 ms MarkObjects: 1.192557 ms  DeleteObjects: 0.046581 ms)
+
+best fitness: 29
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+best fitness: 29
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+best fitness: 31
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+best fitness: 31
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+best fitness: 31
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+best fitness: 31
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
 
 tutaj jestem
  
 (Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
 
 Unloading 2 Unused Serialized files (Serialized files now loaded: 0)
-UnloadTime: 1.995887 ms
+UnloadTime: 2.195631 ms
 C:/Users/Paweł/AppData/LocalLow/DefaultCompany/Zawodowo/
  
 (Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
@@ -54,97 +78,97 @@ C:/Users/Paweł/AppData/LocalLow/DefaultCompany/Zawodowo/
 (Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
 
 
-Unloading 2026 unused Assets to reduce memory usage. Loaded Objects now: 672.
-Total: 2.381959 ms (FindLiveObjects: 0.213563 ms CreateObjectMapping: 0.228169 ms MarkObjects: 0.947809 ms  DeleteObjects: 0.990838 ms)
+Unloading 2026 unused Assets to reduce memory usage. Loaded Objects now: 665.
+Total: 0.800959 ms (FindLiveObjects: 0.082503 ms CreateObjectMapping: 0.075793 ms MarkObjects: 0.359227 ms  DeleteObjects: 0.282645 ms)
 
 Unloading 3 Unused Serialized files (Serialized files now loaded: 0)
-UnloadTime: 3.819266 ms
+UnloadTime: 8.142626 ms
 
-Unloading 128 unused Assets to reduce memory usage. Loaded Objects now: 2374.
-Total: 1.510337 ms (FindLiveObjects: 0.158297 ms CreateObjectMapping: 0.106189 ms MarkObjects: 1.196506 ms  DeleteObjects: 0.048555 ms)
+Unloading 128 unused Assets to reduce memory usage. Loaded Objects now: 2378.
+Total: 1.287298 ms (FindLiveObjects: 0.161849 ms CreateObjectMapping: 0.077766 ms MarkObjects: 1.002679 ms  DeleteObjects: 0.041844 ms)
 
-best fitness: 14
+best fitness: 29
  
 (Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
 
-best fitness: 14
+best fitness: 31
  
 (Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
 
-best fitness: 14
+best fitness: 31
  
 (Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
 
-best fitness: 14
+best fitness: 31
  
 (Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
 
-best fitness: 14
+best fitness: 31
  
 (Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
 
-best fitness: 14
+best fitness: 29
  
 (Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
 
-best fitness: 14
+best fitness: 29
  
 (Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
 
-best fitness: 14
+best fitness: 30
  
 (Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
 
-best fitness: 14
+best fitness: 31
  
 (Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
 
-best fitness: 14
+best fitness: 29
  
 (Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
 
-best fitness: 14
+best fitness: 30
  
 (Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
 
-best fitness: 14
+best fitness: 29
  
 (Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
 
-best fitness: 14
+best fitness: 30
  
 (Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
 
-best fitness: 14
+best fitness: 29
  
 (Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
 
-best fitness: 14
+best fitness: 31
  
 (Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
 
-best fitness: 14
+best fitness: 29
  
 (Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
 
-best fitness: 14
+best fitness: 31
  
 (Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
 
-best fitness: 14
+best fitness: 31
  
 (Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
 
-best fitness: 14
+best fitness: 30
  
 (Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
 
-best fitness: 14
+tutaj jestem
  
 (Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
 
 Unloading 2 Unused Serialized files (Serialized files now loaded: 0)
-UnloadTime: 1.175978 ms
+UnloadTime: 2.159313 ms
 C:/Users/Paweł/AppData/LocalLow/DefaultCompany/Zawodowo/
  
 (Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
@@ -154,11 +178,11 @@ C:/Users/Paweł/AppData/LocalLow/DefaultCompany/Zawodowo/
 (Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
 
 
-Unloading 2026 unused Assets to reduce memory usage. Loaded Objects now: 682.
-Total: 1.172031 ms (FindLiveObjects: 0.150007 ms CreateObjectMapping: 0.101452 ms MarkObjects: 0.564896 ms  DeleteObjects: 0.354885 ms)
+Unloading 2026 unused Assets to reduce memory usage. Loaded Objects now: 665.
+Total: 1.003469 ms (FindLiveObjects: 0.150401 ms CreateObjectMapping: 0.074214 ms MarkObjects: 0.460679 ms  DeleteObjects: 0.317383 ms)
 
 Setting up 4 worker threads for Enlighten.
-  Thread -> id: d28 -> priority: 1 
-  Thread -> id: 1170 -> priority: 1 
-  Thread -> id: 1308 -> priority: 1 
-  Thread -> id: 11a4 -> priority: 1 
+  Thread -> id: ebc -> priority: 1 
+  Thread -> id: 928 -> priority: 1 
+  Thread -> id: 10d8 -> priority: 1 
+  Thread -> id: d54 -> priority: 1 

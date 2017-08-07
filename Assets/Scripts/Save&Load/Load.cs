@@ -9,7 +9,7 @@ public static class Load
 
     public static void Setup(){
         path = Application.persistentDataPath + "/";
-        Debug.Log(path);
+        //Debug.Log(path);
     }
 
     public static List<string> StringToList(string read){

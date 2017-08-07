@@ -7,10 +7,14 @@ public class AddContent : MonoBehaviour {
 	protected int index = 0;
 	protected float delta = 50f;
 
+	// metoda zwiększa wielkość kontenera w którym przechowywujemy zawodników bądź kluby
+	public void Resize(float h){
+		gameObject.GetComponent<RectTransform>().sizeDelta = new Vector2(0f, h);		
+	}
+	// Metoda wywoływana gdy użytkownik doda każdego dziesiątego zawodnika by zwiększyć pojemność kontenera
 	public void Resize(float h, string t){
 		h += delta * 10; // dziesięć dodatkowych zawodników		
-		gameObject.GetComponent<RectTransform>().sizeDelta = new Vector2(0f, h);
-
+		Resize(h);
 		GameObject [] objects = GameObject.FindGameObjectsWithTag(t);
 		foreach(var o in objects){
 			Destroy(o.gameObject);
@@ -26,7 +30,9 @@ public class AddContent : MonoBehaviour {
 		}
 		Variables.changed = true;
 	}
-
+	// Metoda służy do ponownego dodania kontentu do kontenera - wywoływana zazwyczaj gdy użytkownik zechce 
+	// usunąć zawodnika znajdującego się w środku tabeli - użyta jest wtedy by przesunąć zawodników o jeden
+	// w górę.
 	public void ReAdd(int i, string t){
 		index--; 
 
@@ -54,6 +60,7 @@ public class AddContent : MonoBehaviour {
 		}
 	}
 
+	// Metoda dodaje jedną rzecz do aktualnej sceny (np. dodaje zawodnika na odpowiednie miejsce);
 	public GameObject Add(int i, float y){
 		GameObject temp = Instantiate(UI, new Vector3(0f, y, 0f), Quaternion.identity);
 		temp.GetComponent<SetText>().Set((i + 1) + ".");
