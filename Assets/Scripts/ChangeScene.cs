@@ -5,6 +5,12 @@ public class ChangeScene : MonoBehaviour {
 		Application.LoadLevel("Program");
 	}
 	public void LoadTab(){	
+		if(Variables.players.Count < 4){
+			GameObject.FindGameObjectWithTag("Error").GetComponent<ErrorWindow>().ShowError(
+				"Nie można załadować tabeli, \r\n ponieważ jest za mało zawodników."
+				);
+				return;
+		}
 		Application.LoadLevel("Tabela");
 	}
 	public void SetRes(string which){

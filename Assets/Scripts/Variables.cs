@@ -7,7 +7,7 @@ public static class Variables {
     public static string playersFileName = "players.txt";
     public static string clubFileName = "clubs.txt";
 
-	public static int[] range = {2, 4, 4, 4, 8, 8}; // byc moze zmienie sobie wszedzie na var
+	public static int[] range = {2, 4, 4, 4, 8, 8, 16, 16}; // byc moze zmienie sobie wszedzie na var
 	
 	public static int ParseString(string s){
 		string sub = s.Substring(0,2);

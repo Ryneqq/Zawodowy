@@ -6,7 +6,7 @@ public class Genes {
 
 	private List<Player> DNA;
 	private int fit;
-	private float mutation = 0.1f;
+	private float mutation = 0.01f;
 
 	public Genes(){
 		DNA = new List<Player>();

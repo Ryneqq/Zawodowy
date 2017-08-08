@@ -56,7 +56,7 @@ public static class Randomize {
 	// Metoda zwraca wielkość listy na podstawie tablicy możliwych wielkości
 	// np. list.Count == 15, Size(list) == 16
 	public static int Size(List<Player> players){
-		int [] tab = {4,8,16,32};
+		int [] tab = {4,8,16,32,64};
 		int i = 0;
 		while(tab[i] < players.Count){
 			i++;

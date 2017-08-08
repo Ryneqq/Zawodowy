@@ -10,6 +10,7 @@ public class Show : MonoBehaviour {
 	public List<GameObject> _8;
 	public List<GameObject> _16;
 	public List<GameObject> _32;
+	private int error = 0;
 
 	void Start () {
 		// instantine objekty z listy
@@ -33,9 +34,12 @@ public class Show : MonoBehaviour {
 			default:
 			break;
 		}
-
 		List<Player> best = FindBest();
-		Fill(best);
+		// for(int i = 0; i < 99; i++){
+		// 	best = FindBest();	
+		// }
+		// Debug.Log("error percentage: " + error + " %");		
+		Fill(best);								
 	}
 
 	public void Spawn(GameObject go){
@@ -59,7 +63,7 @@ public class Show : MonoBehaviour {
 	// albo by ten proceder był możliwie jak najrzadszy.
 	public List<Player> FindBest(){
 		int popsize = 100; // wielkość populacji
-		int generations = 40; // liczba generacji
+		int generations = 100; // liczba generacji
 		Genes best = new Genes();	// najlepsze możliwe rozlosowanie		
 		List<Player> players = Variables.players; // lokalna referencja do zawodników
 		List<Genes> population = new List<Genes>();	// populacja rozlosowań
@@ -100,6 +104,7 @@ public class Show : MonoBehaviour {
 			}
 		}
 		print("the best fitness of all: " + best.Fitness());
+		error++;
 		return best.GetDNA();		
 	}
 	 // po instatnitine wylosuj zawodnikow i wpisz ich w tabele

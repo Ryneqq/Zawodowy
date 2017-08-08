@@ -9,6 +9,7 @@ TagManager:
   - Zawodnik
   - Klub
   - Startowy
+  - Error
   layers:
   - Default
   - TransparentFX

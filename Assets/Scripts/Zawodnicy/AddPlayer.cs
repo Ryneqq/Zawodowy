@@ -21,7 +21,7 @@ public class AddPlayer : AddContent {
 	}
 
 	public void Clicked(){
-		if (index > 31)
+		if (index > 63)
 			return;
 			
 		Add(index, pos);
